@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <a href="/">Go back to the homepage</a>
+    <br>
+    <form id="add_form">
+      <label for="txt_in">
+        <span class="new_todo">New</span>
+        <span class="update_todo">Update</span> todo: </label>
+      <input id="txt_in" type="text"/>
+      <input id="add_btn" class="new_todo" type="button" value="Add"/>
+    </form>
+  </body>
+  <script src="/public/javascripts/insert.js"></script>
+<!--  <script src="/javascripts/index.js"></script>-->
+    <script src="/public/javascripts/idb-utility.js"></script>
+</html>
